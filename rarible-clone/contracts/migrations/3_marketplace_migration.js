@@ -1,5 +1,5 @@
-const MorarableMarketContract = artifacts.require("MorarableMarketContract");
+const BroncolaContract = artifacts.require("BroncolaContract");
 
 module.exports = function (deployer) {
-  deployer.deploy(MorarableMarketContract);
+  deployer.deploy(BroncolaContract);
 };
